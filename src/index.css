@@ -2,4 +2,190 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: cursive;
+    color: rgba(44, 44, 44, 0.822);
+    font-weight: 100;
+}
+.Card{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    overflow: hidden;
+    padding: 50px 0;
+    background-color: rgb(255, 255, 255);
+}
+ 
+.section1 img{
+    width: 100%;
+}
+.section2{
+    width: 500px;
+    height: 820px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 0 30px 0;
+}
+.section2 img{
+    width: 500px;
+}
+.section2  h5{
+    width: 140px;
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+    align-items: center;
+    border-bottom: 1px solid yellow;
+    transition: all 1s;
+    text-decoration: none;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.section2  h5:hover{
+    border-bottom: 1px solid rgb(255, 255, 255);
+    text-decoration: underline 1px solid black;
+    color: black;
+}
+.section2  p{
+    padding-right: 90px;
+}
+.section3{
+    width: 700px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(128, 128, 128, 0.415);
+    padding: 80px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.section3 p{
+    margin: 20px 0;
+}
+.section3 button{
+    border: 1px solid darkorange;
+    margin-right: 10px;
+    padding: 5px 10px;
+    background-color: white;
+    transition: all 1s;
+    font-size: 20px;
+}
+.section3 button:hover{
+    background-color: chocolate;
+    text-decoration: underline 1px solid rgb(0, 0, 0);
+}
+.one{
+    width: 100%;
+    overflow: hidden;
+}
+.image{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    padding: 80px 0 0 0; 
+    gap: 20px;
+    overflow: hidden;
+}
+.image .box1 img{
+    width: 700px;
+}
+.image .box2 img{
+    height: 526px;
+}
+.rasimm{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+.rasim img{
+    width: 339px;
+}
+@media (max-width: 1200px) {
+    .image .box1 img{
+        width: 400px;
+    }
+    .image .box2 img{
+        height: 300px;
+    }
+    .rasim img{
+        width: 190px;
+    }
+}
+@media (max-width: 1011px) {
+    .section2{
+        width: 300px;
+        height: 700px;
+        background-color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        gap: 30px;
+        font-size: 14px;
+        padding: 0 0 30px 0;
+    }
+    .section2 img{
+        width: 300px;
+    }
+    .section2  p{
+        padding-right: 10px;
+    }
+    .section3{
+        width: 500px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid rgba(128, 128, 128, 0.415);
+        padding: 20px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 650px) {
+    .section2{
+    width: 300px;
+    height: 580px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-size: 10px;
+    padding: 0 0 30px 0;
+}
+.section2 img{
+    width: 300px;
+}
+.section2  p{
+    padding-right: 0px;
+}
+.section3{
+    width: 300px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgba(128, 128, 128, 0.415);
+    padding: 20px;
+    font-size: 14px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.section3 button{
+    font-size: 13px;
+}
+.image .box1 img{
+    width: 200px;
+}
+.image .box2 img{
+    height: 150px;
+}
+.rasim img{
+    width: 97px;
+}
+.image{
+    padding: 40px 0 0 0; 
+    gap: 5px;
+    overflow: hidden;
+}
+.rasimm{
+    gap: 5px;
+    padding-bottom: 20px;
+}
 }
